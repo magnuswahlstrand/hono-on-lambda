@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project
+# Hono on AWS Lambda
 
-This is a blank project for CDK development with TypeScript.
+A simple API using Hono on lambda. Follows [this guide](https://hono.dev/docs/getting-started/aws-lambda).
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Notes
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+* Bootstrap the CDK environment in the dev account `npm exec -- cdk bootstrap --profile admin@dev`
